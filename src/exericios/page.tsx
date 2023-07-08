@@ -2,7 +2,7 @@ import { useContext } from "react"
 import { AuthContext } from "../contexts/users/auth"
 
 export function Page(){
-    const { user, login, logout } = useContext(AuthContext)
+    const { user, logout } = useContext(AuthContext)
     console.log(user)
     return(
         <div>
